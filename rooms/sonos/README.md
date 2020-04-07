@@ -8,6 +8,8 @@
 - Configure your `rooms.yaml` file in `<config dir>/dwains-theme/configs` with config below.
 - Restart Home Assistant.
 
+*NOTE: You need to add radio stations / playlists in your "My SONOS" app if you want to use the buttons. The ID of the button is identical to the name in the "My SONOS" app. You can find more information about this at the [Mini Media Player repository](https://github.com/kalkih/mini-media-player#card-with-media-shortcuts).*
+
 
 ### Usage
 To use this add-on in your Dwains Theme, add the following to your `custom_resources.yaml` and `rooms.yaml` file:
