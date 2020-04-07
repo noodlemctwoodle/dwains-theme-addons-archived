@@ -1,5 +1,5 @@
 # dwains_theme
-# Custom button for room addon: printer
+# Custom button for room addon: plant
 
 type: custom:button-card
 entity: {{ (data | fromjson)['entity'] }}

@@ -6,7 +6,7 @@
 - Configure your `custom_resources.yaml` file in `<config dir>/dwains-theme/resources` with the config below.
 - Copy the files `page.yaml` and `button.yaml` to your `<config dir>/dwains-theme/addons/rooms/<your room>/sonos` directory.
 - Configure your `rooms.yaml` file in `<config dir>/dwains-theme/configs` with config below.
-- Reload theme configuration at Theme settings.
+- Restart Home Assistant.
 
 
 ### Usage
