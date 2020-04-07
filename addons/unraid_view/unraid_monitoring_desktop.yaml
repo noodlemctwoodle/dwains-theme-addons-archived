@@ -14,7 +14,7 @@
           }
       image: '/local/images/software/dwains-theme/unraid_desktop_1.png'
       elements:
-# Docker Containers Running
+    # Docker Containers Running
       - type: state-label
         entity: input_text.card_containers
         style:
@@ -49,8 +49,7 @@
           line-height: 32px
           padding: 0px 28px
 
-
-# UnRAID Version Available
+    # UnRAID Version Available
       - type: state-label
         entity: input_text.software_version
         style:
@@ -98,7 +97,7 @@
 
           cards:
 
-    # Plex Container
+        # Plex Container
             - type: picture-entity
               style: |
                 ha-card {
@@ -121,7 +120,7 @@
                 service_data:
                   entity_id: switch.chsunr01_docker_binhex_plexpass
 
-    # Sonarr Container
+        # Sonarr Container
             - type: picture-entity
               style: |
                 ha-card {
@@ -144,7 +143,7 @@
                 service_data:
                   entity_id: switch.chsunr01_docker_sonarr
 
-    # Radar Container
+        # Radar Container
             - type: picture-entity
               style: |
                 ha-card {
@@ -167,7 +166,7 @@
                 service_data:
                   entity_id: switch.chsunr01_docker_radarr
 
-    # Lidarr Container
+        # Lidarr Container
             - type: picture-entity
               style: |
                 ha-card {
@@ -190,7 +189,7 @@
                 service_data:
                   entity_id: switch.chsunr01_docker_lidarr
 
-    # UnRAID-API Container
+        # UnRAID-API Container
             - type: picture-entity
               style: |
                 ha-card {
@@ -213,7 +212,7 @@
                 service_data:
                   entity_id: switch.chsunr01_docker_unraid_api
 
-    # NZBGet Container
+        # NZBGet Container
             - type: picture-entity
               style: |
                 ha-card {
@@ -236,7 +235,7 @@
                 service_data:
                   entity_id: switch.chsunr01_docker_nzbget
 
-    # NZBHydra Container
+        # NZBHydra Container
             - type: picture-entity
               style: |
                 ha-card {
@@ -259,7 +258,7 @@
                 service_data:
                   entity_id: switch.chsunr01_docker_binhex_nzbhydra2
 
-    # Tautulli Container
+        # Tautulli Container
             - type: picture-entity
               style: |
                 ha-card {
@@ -282,7 +281,7 @@
                 service_data:
                   entity_id: switch.chsunr01_docker_tautulli
 
-    # DiskSpeed Container
+        # DiskSpeed Container
             - type: picture-entity
               style: |
                 ha-card {
@@ -305,7 +304,7 @@
                 service_data:
                   entity_id: switch.chsunr01_docker_diskspeed
 
-    # Glances Container
+        # Glances Container
             - type: picture-entity
               style: |
                 ha-card {
@@ -328,7 +327,7 @@
                 service_data:
                   entity_id: switch.chsunr01_docker_glances
 
-    # Netdata Container
+        # Netdata Container
             - type: picture-entity
               style: |
                 ha-card {
@@ -361,7 +360,7 @@
           cards:
             - type: horizontal-stack
               cards:
-    # UnRAID Array Status
+            # UnRAID Array Status
                 - type: custom:bar-card
                   item_classes: 'col-lg-3 col-md-3'
                   style: |
@@ -395,7 +394,7 @@
                   align: split
                   tap_action: none
 
-            ## UnRAID Array Protection
+            # UnRAID Array Protection
                 - type: custom:bar-card
                   item_classes: 'col-lg-3 col-md-3'
                   style: |
@@ -432,7 +431,7 @@
             - type: vertical-stack
               cards:
 
-                      # UnRAID Array Total Space
+            # UnRAID Array Total Space
                 - type: custom:bar-card
                   item_classes: 'col-lg-3 col-md-3'
                   style: |
@@ -498,7 +497,7 @@
                             - type: horizontal-stack
                               cards: 
 
-                # Disk 1 Used %
+                            # Disk 1 Used %
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -537,7 +536,7 @@
                                   align: center
                                   tap_action: none
 
-                # Disk 2 Used %
+                            # Disk 2 Used %
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -576,7 +575,7 @@
                                   align: center
                                   tap_action: none
 
-                # Disk 3 Used %
+                            # Disk 3 Used %
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -615,7 +614,7 @@
                                   align: center
                                   tap_action: none
 
-                # Disk 4 Used %
+                            # Disk 4 Used %
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -654,7 +653,7 @@
                                   align: center
                                   tap_action: none
 
-                # Disk 5 Used %
+                            # Disk 5 Used %
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -693,7 +692,7 @@
                                   align: center
                                   tap_action: none
 
-                # Disk 6 Used %
+                            # Disk 6 Used %
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -737,7 +736,7 @@
                             - type: horizontal-stack
                               cards: 
 
-                # Disk 1 Free
+                            # Disk 1 Free
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -784,7 +783,7 @@
                                   min: 0
 
 
-                # Disk 2 Free
+                            # Disk 2 Free
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -830,7 +829,7 @@
                                   max: 5460 # 6 TB Disk
                                   min: 0
 
-                # Disk 3 Free
+                            # Disk 3 Free
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -877,7 +876,7 @@
                                   min: 0
 
 
-                # Disk 4 Free
+                            # Disk 4 Free
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -923,7 +922,7 @@
                                   max: 2730 # 3 TB Disk
                                   min: 0
 
-                # Disk 5 Free
+                            # Disk 5 Free
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -969,7 +968,7 @@
                                   max: 5460 # 6 TB Disk
                                   min: 0
 
-                # Disk 6 Free
+                            # Disk 6 Free
                                 - type: custom:bar-card
                                   style: |
                                     :host {
@@ -1036,7 +1035,7 @@
                         - type: horizontal-stack
                           cards: 
 
-            # CPU Useage
+                      # CPU Useage
                             - type: custom:mini-graph-card
                               style: |
                                 ha-card {
@@ -1073,7 +1072,7 @@
                         - type: horizontal-stack
                           cards: 
 
-            # Ram Usage
+                    # Ram Usage
                             - type: custom:mini-graph-card
                               style: |
                                 ha-card {
@@ -1119,7 +1118,7 @@
                 - type: horizontal-stack
                   cards: 
 
-        # LAN Download
+              # LAN Download
                     - type: custom:mini-graph-card
                       item_classes: 'col-lg-6 col-md-6'
                       style: |
@@ -1165,7 +1164,7 @@
                 - type: vertical-stack
                   cards:
 
-        # LAN Upload
+              # LAN Upload
                     - type: custom:mini-graph-card
                       item_classes: 'col-lg-6 col-md-6'
                       style: |
@@ -1213,7 +1212,7 @@
             - type: horizontal-stack
               cards:
 
-
+              # USB Boot Device
                   - type: custom:bar-card
                     style: |
                       :host {
@@ -1294,8 +1293,6 @@
                     max: 233
                     min: 0
                     tap_action: none
-
-
 
               # SSD Cache
                   - type: custom:bar-card
