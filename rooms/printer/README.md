@@ -33,14 +33,10 @@ To use this add-on in your Dwains Theme, add the following to your `custom_resou
 
 ### Screenshots
 **Light theme:**<br>
-![mobile-light](https://github.com/Klumpke/dwains-theme-addons/blob/master/rooms/printer/.github/screenshots/mobile-light.png "Mobile Light")
-
-![tablet-light](https://github.com/Klumpke/dwains-theme-addons/blob/master/rooms/printer/.github/screenshots/tablet-light.png "Tablet Light")
+![light](https://github.com/Klumpke/dwains-theme-addons/blob/master/rooms/printer/.github/screenshots/light.png "Light")
 
 **Dark theme:**<br>
-![mobile-dark](https://github.com/Klumpke/dwains-theme-addons/blob/master/rooms/printer/.github/screenshots/mobile-dark.png "Mobile Dark")
-
-![tablet-dark](https://github.com/Klumpke/dwains-theme-addons/blob/master/rooms/printer/.github/screenshots/tablet-dark.png "Tablet Dark")
+![dark](https://github.com/Klumpke/dwains-theme-addons/blob/master/rooms/printer/.github/screenshots/dark.png "Dark")
 
 
 ### Changelog
