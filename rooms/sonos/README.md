@@ -33,10 +33,10 @@ To use this add-on in your Dwains Theme, add the following to your `custom_resou
 
 ### Screenshots
 **Light theme:**<br>
-![light](https://github.com/Klumpke/dwains-theme-addons/blob/master/rooms/printer/.github/screenshots/light.png "Light")
+![light](https://github.com/Klumpke/dwains-theme-addons/blob/master/rooms/sonos/.github/screenshots/light.png "Light")
 
 **Dark theme:**<br>
-![dark](https://github.com/Klumpke/dwains-theme-addons/blob/master/rooms/printer/.github/screenshots/dark.png "Dark")
+![dark](https://github.com/Klumpke/dwains-theme-addons/blob/master/rooms/sonos/.github/screenshots/dark.png "Dark")
 
 
 ### Changelog
