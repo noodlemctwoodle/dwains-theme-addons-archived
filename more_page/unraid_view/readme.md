@@ -1,11 +1,11 @@
-# UnRAID Monitoring View for Dwains-Theme
+# UnRAID Monitoring Addon for Dwains-Theme
 #### Version 0.1
 
-![unraid-monitor](https://github.com/noodlemctwoodle/homeassistant/blob/master/www/images/github/views/unraid.png)
+![unraid-monitor](https://github.com/noodlemctwoodle/homeassistant/blob/master/.github/wiki/images/dwains-theme/addons/unraid/desktop_1.png)
 
 ### UnRAID Data Monitoring Feeds
 
-| [UnRAID-API](https://github.com/noodlemctwoodle/homeassistant/blob/master/packages/ha-core/areas/cabinet/devices/unraid/readme.md#unraid-api-configuration) | [UnRAID-SNMP](https://github.com/noodlemctwoodle/homeassistant/blob/master/packages/ha-core/areas/cabinet/devices/unraid/readme.md#unraid-snmp-configuration) | [UnRAID Glances Container](https://github.com/nicolargo/glances) |
+| [UnRAID-API](https://github.com/noodlemctwoodle/homeassistant/tree/master/.github/wiki/guides/unraid#unraid-api-configuration) | [UnRAID-SNMP](https://github.com/noodlemctwoodle/homeassistant/tree/master/.github/wiki/guides/unraid#unraid-snmp-configuration) | [UnRAID Glances Container](https://github.com/hassio-addons/addon-glances/blob/v0.7.1/README.md) |
 |-----------------------|-----------------|--------------------------------|
 | View arrayStatus      | HDD Array Temps | View total per disk used space |
 | View arrayProtection  | LAN Throughput  | View total per disk free space |
@@ -13,26 +13,24 @@
 | Start/Stop Containers | CPU Load        | View RAM usage                 |
 
 Version 0.1
- - Initial view
+ - Initial view works for both Mobile and Desktop (Responsive)
  - Glances container support
  - Glances Home Assistant Integration
- - Added swipe card for docker containers
- - UnRAID-API added
  - Container Support
- - Added SNMP [config](https://github.com/noodlemctwoodle/homeassistant/blob/b2b1bed306b16d1366f25835d2840cea42f72352/packages/ha-core/areas/cabinet/devices/unraid/unraid_monitoring.yaml#L36)
- - combined disk usage into swipe card
- - Added HDD temperatures to temperatures swipe-card
- - Added LAN Throughput bar graph to resources swipe-card
- - Removed Tap actions on mini-graph-card and bar-card
- - Fixed graph height issue on swipe-card
- - Added bullets to swipe card and removed progress bar
- - Fixed template issue on 'Array Usage' when Home Assistant gets value of unavailable or none
- - Fixed issue with bar-card border radius
- - Fixed Mini-Graph-Card line colours
- - Fixed Font Size Bar-Card Colour overlap issue
+    - Start/Stop Containers
+ - UnRAID-API added
+ - Added SNMP [config](https://github.com/noodlemctwoodle/homeassistant/blob/44ac457117f173fa1bf1e47ce832566b36ba5ddb/packages/ha-core/areas/cabinet/devices/unraid/unraid_monitoring.yaml#L34)
 
 
- Dwains-Theme UnRAID view can be found [here](https://github.com/noodlemctwoodle/homeassistant/blob/master/user_content/views/computers_user_content.yaml)
+ Dwains-Theme UnRAID add-on can be found [here](https://github.com/noodlemctwoodle/homeassistant/blob/master/dwains-theme/addons/unraid_addon/unraid_monitoring.yaml)
+
+
+ ```yaml
+    addons:
+    - name: Unraid Monitoring
+        icon: mdi:server-network
+        path: 'dwains-theme/addons/unraid_addon/unraid_monitoring.yaml'
+```
 
  #### Credits
  - [Dwain](https://github.com/dwainscheeren/lovelace-dwains-theme) Thanks for your assistance and ideas on this :)
