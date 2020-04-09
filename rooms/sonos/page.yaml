@@ -10,7 +10,7 @@
         }
       entities:
         #- entity: {{ (data | fromjson)['entity'] }}
-        - entity: media_player.eetkamer
+        - entity: media_player.sonos_livingroom
           group: true
           name: Sonos
           info: scroll
@@ -25,14 +25,14 @@
             platform: sonos
             show_group_count: true
             entities:
-              - entity_id: media_player.woonkamer
-                name: Woonkamer
-              - entity_id: media_player.eetkamer
-                name: Eetkamer
-              - entity_id: media_player.boven
-                name: Boven
-              - entity_id: media_player.tuin
-                name: Tuin
+              - entity_id: media_player.sonos_livingroom
+                name: 'Living Room'
+              - entity_id: media_player.sonos_kitchen
+                name: 'Kitchen'
+              - entity_id: media_player.sonos_diningroom
+                name: 'Diningroom'
+              - entity_id: media_player.sonos_garden
+                name: 'Garden'
           shortcuts:
             columns: 3
             hide_when_off: true
@@ -71,18 +71,18 @@
         }
       entities:
         - type: 'custom:slider-entity-row'
-          entity: media_player.woonkamer
+          entity: media_player.sonos_livingroom
           icon: 'mdi:speaker'
-          name: Woonkamer
+          name: 'Livingroom'
         - type: 'custom:slider-entity-row'
-          entity: media_player.eetkamer
+          entity: media_player.sonos_kitchen
           icon: 'mdi:speaker'
-          name: Eetkamer
+          name: 'Kitchen'
         - type: 'custom:slider-entity-row'
-          entity: media_player.boven
+          entity: media_player.sonos_diningroom
           icon: 'mdi:speaker'
-          name: Boven
+          name: 'Diningroom'
         - type: 'custom:slider-entity-row'
-          entity: media_player.tuin
+          entity: media_player.sonos_garden
           icon: 'mdi:speaker'
-          name: Tuin
+          name: 'Garden'
