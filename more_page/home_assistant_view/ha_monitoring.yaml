@@ -366,7 +366,6 @@
 
         - type: horizontal-stack
           cards:
-
           # NVMe System Disk Free
             - type: custom:bar-card
               style: |
@@ -578,6 +577,7 @@
                               box-shadow: 10px;
                               font-weight: bold;
                               opacity: 0.8;
+                              height: 242px;                
                             }
                           entities:
                             - entity: sensor.glances_homeassistant_cpu_used

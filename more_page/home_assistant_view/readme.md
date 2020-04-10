@@ -32,6 +32,7 @@ Dwains-Theme Addon can be found [here](https://github.com/noodlemctwoodle/homeas
      
 Configuration instructions can be found [here](https://github.com/noodlemctwoodle/homeassistant/blob/master/.github/wiki/guides/ha-core/HomeAssistant_Monitoting.md)
 
+
 ```yaml
     addons:
       - name: Home Assistant
